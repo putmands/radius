@@ -10,3 +10,28 @@ De Weerdt, Joachim, 2025, "Nyakatoke Network Data", https://doi.org/10.7910/DVN/
 
 ## Software
 The results were produced using R and Stata. For R, I include a set-up script that will install necessary packages. For Stata, the user will need to install NGREG, written by Marcel Fafchamps, to obtain regressions with dyadic robust standard errors. The ado file can be obtained at his [website](https://web.stanford.edu/~fafchamp/resources.html).
+
+## Replication
+
+### Colombia Illustration
+In ~/radius/Colombia/Code, run:
+1. dta_to_csv.do
+2. dyadic_regression_communities.R
+3. dyadic_regression_communities.do
+4. muni7plots.R
+
+### Tanzania Illustration
+In ~/radius/Tanzania/Code, run:
+5. 
+
+### Radii of Risk Sharing
+In ~/radius/Colombia/Code, run:
+
+### Network Sampling Simulations
+In ~/radius/Colombia/Code, run:
+simulation.R
+plot_sims.R
+
+In ~/radius/Tanzania/Code, run:
+simulation.R
+plot_sims.R
