@@ -31,8 +31,8 @@ In ~/radius/Colombia/Code, run:
 ### 3.2 Tanzania Illustration
 In ~/radius/Tanzania/Code, run:
 
-6. **make tabular data into cvs data**  
-   Saves dta files from de Weerdt (2025) as csv files.
+6. **dta_to_csv.do**
+   Saves dta files from and earlier version of the de Weerdt (2025) data which is identical except that it came as dta data. Users who have the newer version of this data will need to save the tab data as a csv in lieu of this step, or adapt the next step to load in the tab data. 
 7. **process_data.R**  
    Processes dyadic data. Outputs "tanzania_dyadic_with_communities.csv." Generates network visualization (Figure S5), underlying data for Tables 1, S2, and S3, and degree distribution plot (Figure S7b).
 8. **dyadic_regressions.R**  
