@@ -22,7 +22,7 @@ In ~/radius/Colombia/Code, run:
 2. **dyadic_regression_communities.R**  
    Processes dyadic data. Outputs "colombia_dyads_with_communities.csv." Aggregates data to the group level and outputs "defaults_by_group.csv." Generates degree distribution plot (Figure S7a).
 3. **dyadic_regression_communities.do**  
-   Inputs "colombia_dyads_with_communities.csv" and "defaults_by_group.csv." Conducts dyadic regression analysis and group default analysis. Saves estimates for radii figures. Generates underlying data for Tables 1, S2, and S3 and generates Table 2, S4, S13, S20, S28, and S29.
+   Inputs "colombia_dyads_with_communities.csv" and "defaults_by_group.csv." Conducts dyadic regression analysis and group default analysis. Saves estimates for radii figures. Generates underlying data for Tables 1, S2, and S3 and generates Table 2, S4, S13, S20, S28, and S29. Generates underlying data for Table S21.
 4. **muni7plots.R**  
    Generates Figures 1, 2, S1, S2, S3, and S4.
 5. **simulation.R**  
@@ -31,12 +31,12 @@ In ~/radius/Colombia/Code, run:
 ### 3.2 Tanzania Illustration
 In ~/radius/Tanzania/Code, run:
 
-6. **dta_to_csv.do**  
+6. **dta2csv.do**  
    Saves dta files from and earlier version of the de Weerdt (2025) data which is identical except that it came as dta data. Users who have the newer version of this data will need to save the tab data as a csv in lieu of this step, or adapt the next step to load in the tab data. 
 7. **process_data.R**  
    Processes dyadic data. Outputs "tanzania_dyadic_with_communities.csv." Generates network visualization (Figure S5), underlying data for Tables 1, S2, and S3, and degree distribution plot (Figure S7b).
 8. **dyadic_regressions.R**  
-   Inputs "tanzania_dyadic_with_communities.csv." Conducts dyadic regression analysis. Saves estimates for radii figures. Saves Tables 3, S5, S14, S15, S17-19, S21-S27.
+   Inputs "tanzania_dyadic_with_communities.csv." Conducts dyadic regression analysis. Saves estimates for radii figures. Saves Tables 3, S5, S14, S15, S17-19, S22-S27. Generates underlying data for Table S21.
 9. **simulation.R**  
    Runs the network sampling simulation in the Tanzania illustration. To reproduce the estimates of the paper you will want to run 5000 simulations (nsims = 5000) dropping 50% of nodes (p_drop = 0.5), and 75% to produce the panels of Tables S8, S9, and S10. To reproduce the results that underly Figure 4a, you will also need to run it dropping 25% of nodes. 
 
