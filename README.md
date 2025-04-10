@@ -11,10 +11,13 @@ The paper draws on two empirical illustrations, in Colombia and Tanzania. The Co
 ## 2 Software
 The results were produced using R and Stata. For R, I include a set-up script that will install necessary packages. For Stata, the user will need to install NGREG, written by Marcel Fafchamps, to obtain regressions with dyadic robust standard errors. The ado file can be obtained at his [website](https://web.stanford.edu/~fafchamp/resources.html).
 
-## 3 Replication
-Place the data from the above repositories in the relevant data directory. The folder structure is already in place. To replicate the results of the paper in full, you will need to run 12 programs in the following order. 
+## 3 Set-Up
+Download or pull this repository. Run setup.R (found in ~/radius/). This will install necessary packages in R and will create the correct folder structure. Then place the data from the above repositories in the relevant data directory.
 
-### 3.1 Colombia Illustration
+## 4 Replication
+To replicate the results of the paper in full, you will need to run 12 programs in the following order. 
+
+### 4.1 Colombia Illustration
 In ~/radius/Colombia/Code, run:
 
 1. **dta_to_csv.do**  
@@ -28,7 +31,7 @@ In ~/radius/Colombia/Code, run:
 5. **simulation.R**  
    Runs the network sampling simulation in the Colombia illustration. To reproduce the estimates of the paper you will want to run 500 simulations (nsims = 500) dropping 50% of nodes (p_drop = 0.5) and 75% to produce the panels of Tables S11 and S12. To reproduce the results that underly Figure 4b, you will also need to run it dropping 25% of nodes. 
 
-### 3.2 Tanzania Illustration
+### 4.2 Tanzania Illustration
 In ~/radius/Tanzania/Code, run:
 
 6. **dta2csv.do**  
@@ -41,7 +44,7 @@ In ~/radius/Tanzania/Code, run:
    Runs the network sampling simulation in the Tanzania illustration. To reproduce the estimates of the paper you will want to run 5000 simulations (nsims = 5000) dropping 50% of nodes (p_drop = 0.5), and 75% to produce the panels of Tables S8, S9, and S10. To reproduce the results that underly Figure 4a, you will also need to run it dropping 25% of nodes. 
 
 
-### 3.3 Radii of Risk Sharing
+### 4.3 Radii of Risk Sharing
 After running the files above, in ~/radius/Colombia/Code, run:
 
 10. **radii_plots.R**  
@@ -49,11 +52,8 @@ After running the files above, in ~/radius/Colombia/Code, run:
 11. **interactions.do**  
    Generates Table S7.
 
-### 3.4 Network Sampling Simulations
+### 4.4 Network Sampling Simulations
 In ~/radius/Colombia/Code, run:
 
 12. **plot_sims.R**  
     Generates Figure 4. As a shortcut, this script has the results from **simulation.R** (from both illustrations) hardcoded in.
-
-
-
