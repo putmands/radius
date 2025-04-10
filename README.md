@@ -45,7 +45,7 @@ In ~/radius/Tanzania/Code, run:
 After running the files above, in ~/radius/Colombia/Code, run:
 
 10. **radii_plots.R**  
-   Generates Figures 3 and S6.
+   Generates Figures 3 and S6. As a shortcut, this loads the conditional expectations data from xlsx files created by the author.
 11. **interactions.do**  
    Generates Table S7.
 
