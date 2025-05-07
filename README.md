@@ -1,7 +1,7 @@
 # Social Network Structure and the Radius of Risk Sharing
 Replication code for Putman (2025) prepared by the author.
 
-Putman, D.S. Social network structure and the radius of risk sharing. _Soc. Netw. Anal. Min._ 15, 48 (2025). [https://doi.org/10.1007/s13278-025-01453-8]([url](https://doi.org/10.1007/s13278-025-01453-8))
+Putman, D.S. Social network structure and the radius of risk sharing. _Soc. Netw. Anal. Min._ 15, 48 (2025). [https://doi.org/10.1007/s13278-025-01453-8](https://doi.org/10.1007/s13278-025-01453-8)
 
 ## 1 Data
 The paper draws on two empirical illustrations, in Colombia and Tanzania. The Colombia illustration draws on data from Attanasio et al. (2012) and de Weerdt (2025). To replicate this project, download this data from the repositories cited below.
