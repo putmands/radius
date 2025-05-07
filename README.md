@@ -1,5 +1,5 @@
 # Social Network Structure and the Radius of Risk Sharing
-Replication code for "Social Network Structure and the Radius of Risk Sharing," published in _Social Network Analysis and Mining_. 
+Replication code for Putman (2025) prepared by the author.
 
 Putman, D.S. Social network structure and the radius of risk sharing. _Soc. Netw. Anal. Min._ 15, 48 (2025). [https://doi.org/10.1007/s13278-025-01453-8]([url](https://doi.org/10.1007/s13278-025-01453-8))
 
